@@ -1,12 +1,19 @@
+Projeto de estrutura de dados apresentado em 04/04/2025
+   Objetivo: Implementar um algorítimo de busca binária em assembly
+   Informações: O algorítimo foi escrito usando NASM, Syscall do Linus e arquitetura 32bits (Com compatibilidade para 64bits)
+
 Recomendações:
 
 Computador no mínimo 32bits
 Kernel do linux
 
+( Caso queira compilar novamente )
 NASM para compilar
 GCC para linkar (ld)
 
- Scripts a serem instalados em caso de compilação:
+Diretório dos arquivos finais ( Executável limpo e arquivo apenas para comentário - Todos já como executáveis )
+
+Scripts a serem instalados em caso de compilação:
 
 sudo apt update && sudo apt upgrade -y
 sudo apt install nasm
