@@ -1,9 +1,6 @@
 section .data
     prompt db "Enter a number (empty to quit): ", 0xA
     prompt_len equ $ - prompt
-    output db "You entered: "
-    output_len equ $ - output
-    newline db 0xA
     numbers times 256 dd 0  ; Espaço para as respostas // aloca 256 x 4bytes ( 32bits for each number ) 0 is the initial value
     summary db "All numbers entered: [", 0
     summary_len equ $ - summary
